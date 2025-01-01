@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <marquee direction=" left"> <h1>COURSE REGISTRATION FORM</h1></marquee>
+    <center>
+      <form action="">
+        <fieldset>
+          <legend>Personal Details</legend>
+          <table>
+            <tr>
+              <td><label for=""> NAME </label></td>
+              <td>
+                <input type="text" placeholder="EX:DHANUSH;" required />
+                <p>EnterYourName</p>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">SURNAME</label></td>
+              <td>
+                <input type="text" placeholder="EX:A;" optional />
+                <p>EnterYourSurName</p>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">MOBILE NUMBER</label></td>
+              <td>
+                <input type="tel" placeholder="EX:1234567890;" required />
+                <p>EnterYourmobileNumber</p>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">EMAIL</label></td>
+              <td>
+                <input
+                  type="Email"
+                  placeholder="EX:Dhanush123@GMAIL.COM"
+                  required
+                />
+                <img src="correct.jpg" class="valid">
+                <img src="wrong.png" class="invalid" >
+                <p>EnterYourEmail</p>
+                
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">PASSWORD</label></td>
+              <td>
+                <input type="password" placeholder="EX:12345567" required />
+                <p>EnterYourPassword</p>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">CONFORM PASSWORD</label></td>
+              <td>
+                <input type="password" placeholder="EX:12345667;" required />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">DOB</label></td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td><label for="">GENDER</label></td>
+              <td>
+                <input type="Radio" name="Gender" value="M" />MALE
+                <input type="Radio" name="Gender" value="F" />FEMALE
+                <input type="Radio" name="Gender" value="O" />OTHERS
+              </td>
+            </tr>
+            <tr>
+              <td><label for="">SELECT COUNTRY</label></td>
+              <td>
+                <select name=" " id="">
+                  <option value="">INDIA</option>
+                  <option value="">USA</option>
+                  <option value="">CHINA</option>
+                  <option value="">AFRICA</option>
+                  <option value="">JAPAN</option>
+                </select>
+              </td>
+            </tr>
+            <tr><td><label for="">AGE</label></td>
+              <td><input type="number" name="AGE" required min="18" max="100">
+                <img src="correct.jpg" class="valid">
+                <img src="wrong.png" class="invalid" >
+              
+              
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="">UPLOAD PICTURE </label></td>
+              <td><input type="file" /> <br /></td>
+            </tr>
+            <tr>
+              <td><input type="reset" /></td>
+            </tr>
+
+            <tr>
+              <td>
+                <a href="course.html">NEXT</a>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </center>
+  </body>
+</html>
